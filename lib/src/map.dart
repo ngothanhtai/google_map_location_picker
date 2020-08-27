@@ -224,7 +224,7 @@ class MapPickerState extends State<MapPicker> {
                           _address = address;
                           return Text(
                             address ?? 'Unnamed place',
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(fontSize: 18, color: Colors.black),
                           );
                         }),
                   ),
