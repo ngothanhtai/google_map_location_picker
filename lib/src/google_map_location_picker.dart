@@ -363,7 +363,7 @@ class LocationPickerState extends State<LocationPicker> {
       ],
       child: Builder(builder: (context) {
         return Scaffold(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.red,
           extendBodyBehindAppBar: true,
           appBar: AppBar(
             iconTheme: Theme.of(context).iconTheme,
