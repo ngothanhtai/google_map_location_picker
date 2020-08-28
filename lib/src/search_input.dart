@@ -74,7 +74,7 @@ class SearchInputState extends State<SearchInput> {
           SizedBox(width: 8),
           Expanded(
             child: TextField(
-              style: TextStyle(color: Colors.white),
+              style: TextStyle(color: Colors.black),
               controller: editController,
               decoration: InputDecoration(
                 hintText: widget.hintText ??
