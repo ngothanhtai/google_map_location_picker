@@ -132,7 +132,7 @@ class MapPickerState extends State<MapPicker> {
       _checkGeolocationPermission();
     }
     return Scaffold(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       body: Builder(builder: (context) {
         if (_currentPosition == null &&
             widget.automaticallyAnimateToCurrentLocation &&
