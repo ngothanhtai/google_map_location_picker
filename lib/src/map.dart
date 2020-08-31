@@ -391,7 +391,7 @@ class _MapFabs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final statusBarHeight = MediaQuery.of(context).viewInsets.top;
+    final statusBarHeight = MediaQuery.of(context).padding.top;
 
     return Container(
       alignment: Alignment.topRight,
