@@ -395,7 +395,7 @@ class _MapFabs extends StatelessWidget {
 
     return Container(
       alignment: Alignment.topRight,
-      margin: EdgeInsets.only(top: statusBarHeight + 24, right: 8),
+      margin: EdgeInsets.only(top: statusBarHeight + 12, right: 8),
       child: Column(
         children: <Widget>[
           if (layersButtonEnabled)
