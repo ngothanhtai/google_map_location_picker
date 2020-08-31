@@ -391,9 +391,11 @@ class _MapFabs extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final statusBarHeight = MediaQuery.of(context).viewInsets.top;
+
     return Container(
       alignment: Alignment.topRight,
-      margin: EdgeInsets.only(top: kToolbarHeight, right: 8),
+      margin: EdgeInsets.only(top: statusBarHeight + kToolbarHeight, right: 8),
       child: Column(
         children: <Widget>[
           if (layersButtonEnabled)
