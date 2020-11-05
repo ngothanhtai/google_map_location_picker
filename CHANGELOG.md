@@ -1,3 +1,33 @@
+## 4.0.0
+
+* Updated `google_maps_flutter: ^1.0.2`
+* Added `desiredAccuracy` from `geolocator` package.
+
+## 4.0.0-rc.3
+
+* Improve the behavior when `requiredGPS` is set to true and the location permission id denied.
+
+## 4.0.0-rc.2
+
+* requiredGPS now defaults to false, because the permission handling is sufficient.
+
+## 4.0.0-rc.1
+
+* Updated to geolocator: 6.0.0 which provides better location handling.
+
+## 3.3.5
+
+* Added language parameter thanks to @JFtechOfficial.
+* Add placeId to Location Result thanks to @Faizaan.
+* Fixed: without supplying 'countries' autoCompleteSearch crashes while country is not mandatory #103.
+
+## 3.3.4
+
+* Added Italian language thanks to @JFtechOfficial.
+* Added Region filter thanks to @Zamorite.
+* migrated to flutter_intl for localization.
+* updated deps.
+
 ## 3.3.3
 
 * Made the initialZoom configurable thanks to @alfredjingle.
