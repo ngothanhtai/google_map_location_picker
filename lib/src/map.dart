@@ -243,7 +243,7 @@ class MapPickerState extends State<MapPicker> {
                           _address ??
                               S.of(context)?.unnamedPlace ??
                               'Unnamed place',
-                          style: TextStyle(fontSize: 18),
+                          style: TextStyle(fontSize: 18, color: Colors.black),
                         );
                       },
                     ),
